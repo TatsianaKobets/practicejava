@@ -6,7 +6,7 @@ abstract class AbstractCar {
   String color;
   int yearOfProduction;
 
-  public AbstractCar(String model, String color, int yearOfProduction) {
+  protected AbstractCar(String model, String color, int yearOfProduction) {
     this.model = model;
     this.color = color;
     this.yearOfProduction = yearOfProduction;
