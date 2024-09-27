@@ -25,7 +25,7 @@ public class OrdinaryCar extends AbstractCar {
 
   @Override
   void brake() {
-   // System.out.println("Торможение обычного автомобиля: " + model + " плавное");
+    System.out.println("Торможение обычного автомобиля: " + model + " плавное");
     System.out.printf("Торможение обычного автомобиля:  %s - плавное%n", model);
   }
 

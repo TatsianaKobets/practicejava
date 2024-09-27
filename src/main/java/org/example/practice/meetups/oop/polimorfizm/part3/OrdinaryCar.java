@@ -1,4 +1,4 @@
-package org.example.practice.meetups.oop.polimorf.part2;
+package org.example.practice.meetups.oop.polimorfizm.part3;
 
 public class OrdinaryCar extends AbstractCar {
 
@@ -27,6 +27,13 @@ public class OrdinaryCar extends AbstractCar {
   @Override
   void refuel(String fuelType) {
     System.out.println("Обычный автомобиль заправляется " + fuelType);
+  }
+  void refuel(int liters) {
+    System.out.println("Обычный автомобиль заправляется " + liters + " литров топлива.");
+  }
+
+  void refuel() {
+    System.out.println("Обычный автомобиль заправляется по умолчанию.");
   }
 
   @Override

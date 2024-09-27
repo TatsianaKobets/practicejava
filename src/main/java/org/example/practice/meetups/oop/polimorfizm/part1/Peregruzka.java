@@ -1,4 +1,4 @@
-package org.example.practice.meetups.oop.polimorf.part1;
+package org.example.practice.meetups.oop.polimorfizm.part1;
 
 public class Peregruzka {
 

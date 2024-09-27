@@ -18,6 +18,5 @@ public class Main {
     System.out.println("Создание объекта с одним параметром");
     Car myCarOneParam = new Car("Nissan");
     System.out.println("Наша машина с одним параметром: " + myCarOneParam.model);
-
   }
 }

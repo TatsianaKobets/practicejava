@@ -5,8 +5,8 @@ public class Main {
   public static void main(String[] args) {
     SportCar myCar = new SportCar("Toyota", "Red", 2020);
     System.out.println("Вывод с помощью метода toString: " + myCar.toString());
-    System.out.println("Вывод без метода toString: " + myCar.model + " " + myCar.color + " "
-        + myCar.yearOfProduction);
+    System.out.println("Вывод без метода toString: " + myCar.model + " " + myCar.color +
+        " " + myCar.yearOfProduction);
     myCar.drive();
     myCar.openTheDoor();
     myCar.brake();

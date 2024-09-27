@@ -1,4 +1,4 @@
-package org.example.practice.meetups.oop.incapsul;
+package org.example.practice.meetups.oop.incapsulation;
 
 public class Person {
 

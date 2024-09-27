@@ -12,7 +12,7 @@ public class Main {
     System.out.println(
         "Наша машина: " + myCar.yearOfProduction + " " + myCar.color + " " + myCar.model);
 
-    System.out.println("Что может наша машина: ");
+    System.out.println("Что может машина: ");
 
     myCar.drive();
     myCar.openTheDoor();

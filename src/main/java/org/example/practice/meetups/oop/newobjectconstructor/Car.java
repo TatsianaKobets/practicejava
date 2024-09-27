@@ -21,7 +21,6 @@ public class Car {
     yearOfProduction = 0;
   }
 
-
   public Car(String model, String color, int yearOfProduction) {// Конструктор с тремя параметрами
     this.model = model;
     this.color = color;

@@ -27,6 +27,7 @@ public class SportCar extends AbstractCar {
   void brake() {
     System.out.printf("Торможение спортивного автомобиля: %s - резкое%n", model);
   }
+
   @Override
   public String toString() {
     return "SportCar{" +

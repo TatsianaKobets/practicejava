@@ -7,7 +7,7 @@ public class SportCar extends AbstractCar {
   }
 
   void skid() {
-    System.out.println("Машину заносит на высокой скорости");
+    System.out.println("Сортивный автомобиль заносит на высокой скорости");
   }
 
   @Override

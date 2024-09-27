@@ -17,5 +17,4 @@ abstract class AbstractCar {
   abstract void openTheDoor();
 
   abstract void brake();
-
 }

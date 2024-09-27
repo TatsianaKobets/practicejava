@@ -1,4 +1,4 @@
-package org.example.practice.meetups.oop.polimorf.part3;
+package org.example.practice.meetups.oop.polimorfizm.part3;
 
 public class SportCar extends AbstractCar {
 
